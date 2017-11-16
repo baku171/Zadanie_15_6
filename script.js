@@ -92,13 +92,6 @@ class Stopwatch {
     }
 }
 
-// function pad0(value) {
-//     let result = value.toString();
-//     if (result.length < 2) {
-//         result = '0' + result;
-//     }
-//     return result;
-// }
 
 const stopwatch = new Stopwatch (document.querySelector('.stopwatch'));
 
@@ -119,15 +112,6 @@ clearButton.addEventListener('click', () => stopwatch.clear());
 
 var resultList = document.querySelector('.results');
 
-// function addTimeToList(time, resultList) {
-//     let element = document.createElement('li');
-//     element.innerText = time;
-//     resultList.appendChild(element);
-// }
-
-// function clearList (resultList) {
-//     resultList.innerText = '';
-// }
 
 
 
